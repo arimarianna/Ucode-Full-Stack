@@ -1,0 +1,7 @@
+.image:hover {
+    transform: rotate(-30deg);
+}
+
+.image {
+padding: 100px 100px;
+}

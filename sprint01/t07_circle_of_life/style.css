@@ -1,0 +1,32 @@
+* {
+    margin: 0px;
+}
+
+@keyframes run {
+    0% {
+        left: 0px;
+    }
+
+    50% {
+        left: calc(100% - 200px);
+    }
+
+    100% {
+        left: 0px;
+    }
+}
+
+#ball {
+    position: absolute;
+    top: 100px;
+    border-radius: 100px;
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    animation: run 5s linear infinite;
+}
+
+#ball:hover {
+    transition: background-color 2s;
+    background-color: red;
+}

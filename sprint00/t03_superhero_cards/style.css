@@ -1,0 +1,72 @@
+.main {
+    display: flex;
+    font-family: Verdana, serif;
+    flex-wrap: wrap;
+    float: left;
+}
+
+div {
+    position: relative;
+    float: left;
+}
+
+.superhero {
+    position: relative;
+    width: 270px;
+    height: 140px;
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: 40px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+img {
+    position: absolute;
+    height: 182px;
+}
+
+#alias {
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: right;
+    margin: 0;
+}
+
+small {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 9px;
+}
+
+#captain_image {
+    margin-top: -32px;
+}
+
+#captain {
+    background: linear-gradient(to bottom, #4568dc, #b06ab3);
+}
+
+#iron_image {
+    margin-top: -32px;
+}
+
+#iron {
+    background: linear-gradient(to left, #e52d27, #b31217);
+}
+
+#widow_image {
+    margin-top: -30px;
+}
+
+#widow {
+    background: linear-gradient(to right, #000, #61045f);
+}
+
+#spider_image {
+    margin-top: -10px;
+}
+
+#spider {
+    background: linear-gradient(to bottom, #e52d27, #000);
+}

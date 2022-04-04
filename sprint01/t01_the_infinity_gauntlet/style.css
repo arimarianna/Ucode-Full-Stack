@@ -1,0 +1,21 @@
+#gauntlet {
+    width: 300px;
+    height: 500px;
+}
+
+.man {
+    width: 200px;
+    height: 200px;
+}
+
+.people {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-auto-flow: column;
+    grid-template-rows: repeat(5, 1fr);
+    grid-gap: 20px;
+}
+
+#gauntlet:hover~.people>*:nth-child(odd) {
+    opacity: 0;
+}

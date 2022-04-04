@@ -1,0 +1,15 @@
+h1 {
+    text-align: center;
+}
+
+.main {
+    border: 2px solid #000;
+    padding: 15px;
+    border-radius: 25px;
+
+}
+
+.items {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+}

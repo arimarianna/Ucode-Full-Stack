@@ -1,0 +1,9 @@
+h1 {
+    font-family: Arial;
+}
+
+table {
+    width: 500px;
+    height: 600px;
+    border: 1px solid black;
+}

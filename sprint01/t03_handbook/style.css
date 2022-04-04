@@ -1,0 +1,72 @@
+* {
+    font-family: 'Roboto Serif', sans-serif;
+}
+
+
+h2, h3 {
+    text-align: center;
+}
+
+body {
+    background-color: #f3d250;
+}
+
+.handbook_html {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 35px;
+}
+
+.handbook_css {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 35px;
+}
+
+.handbook_protocols {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 35px;
+}
+
+.handbook_html>div {
+    border: 1px solid #EFEFEF;
+    background-color: white;
+    padding: 15px;
+}
+
+.handbook_css>div {
+    border: 1px solid #EFEFEF;
+    background-color: white;
+    padding: 15px;
+}
+
+.handbook_protocols>div {
+    border: 1px solid #EFEFEF;
+    background-color: white;
+    padding: 15px;
+}
+
+@media screen and (min-width: 1024px) {
+    .handbook_html,
+    .handbook_css,
+    .handbook_protocols {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+    .handbook_html,
+    .handbook_css,
+    .handbook_protocols {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .handbook_html,
+    .handbook_css,
+    .handbook_protocols {
+        grid-template-columns: 1fr;
+    }
+}

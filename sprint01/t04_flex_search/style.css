@@ -1,0 +1,25 @@
+h1 {
+    text-align: center;
+}
+
+div {
+    display: flex;
+}
+
+input {
+    color: green;
+    height: 2em;
+    width: 100%;
+}
+
+input:hover {
+    color: red;
+}
+
+button:hover {
+    color: red;
+}
+
+button {
+    color: green;
+}

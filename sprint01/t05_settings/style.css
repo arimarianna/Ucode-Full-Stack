@@ -1,0 +1,252 @@
+* {
+    font-family: Arial;
+}
+
+h1 {
+    color: rgb(63, 71, 81);
+    text-align: center;
+}
+
+.main_box {
+    background-color: #3F4751;
+    display: flex;
+    padding: 30px 10px;
+}
+
+.name, select, .name {
+    font-family: system-ui, sans-serif;
+}
+
+select {
+    color: white;
+    outline-color: #335DB2;
+    background-color: #3f4852;
+    border: 1px solid #b6b4b4;
+    padding: 7px 10px 9px;
+    border-radius: 2px;
+    margin-top: 15px;
+    width: 100%;
+    appearance: none;
+    border: none;
+}
+
+.typeface {
+    position: relative;
+}
+
+.name {
+    font-weight: 400;
+    font-size: 15px;
+    color: #d2d2d2;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+form {
+    background-color: #2f363e;
+    border: 1px solid #9f9d9d;
+    padding: 45px 30px 90px;
+    display: grid;
+    grid-template-columns: repeat(2, calc(50% - 40px));
+    grid-column-gap: 80px;
+    grid-row-gap: 40px;
+    width: 100%;
+}
+
+.menu {
+    display: inline-block;
+    margin: auto;
+}
+
+ul {
+    background-color: #323A42;
+    border-radius: 0 20px 20px 0;
+    margin: 0;
+}
+
+ul li img {
+    width: 50%;
+    margin: 20px 0 20px 5px;
+}
+
+.item {
+    text-align: center;
+}
+
+.toggle_switch {
+    position: relative;
+    display: inline-block;
+    margin-left: auto;
+    width: 60px;
+    height: 34px;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 34px;
+    background-color: #323A42;
+}
+
+.slider::before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    border-radius: 50%;
+    background-color: #5FB9A5;
+}
+
+.theme .label {
+    display: inline-block;
+}
+
+.theme {
+    display: flex;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.color_checkbox {
+    padding-left: 0;
+    width: 25px;
+    height: 25px;
+}
+
+.color_checkmark {
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    box-shadow: 0 0 1px #ddd;
+} 
+
+.color_checkbox:nth-child(1) .color_checkmark {
+    background-color: #4975B8;
+}
+
+.color_checkbox:nth-child(2) .color_checkmark {
+    background-color: #5FB9A4;
+}
+
+.color_checkbox:nth-child(3) .color_checkmark {
+    background-color: #ce63c9;
+}
+
+.color_checkbox:nth-child(4) .color_checkmark {
+    background-color: #d8d564;
+}
+
+.color_checkbox:nth-child(5) .color_checkmark {
+    background-color: #c77a59;
+}
+
+#size_range {
+    margin-top: 20px;
+    appearance: none;
+    width: 100%;
+    height: 3px;
+    border-radius: 7px;
+    background: #353D45;
+    outline: none;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+    position: relative;
+}
+
+#size_range::before {
+    content: "A";
+    color: white;
+    font-size: 17px;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    top: 20px;
+    left: 0;
+}
+
+#size_range::after {
+    content: "A";
+    color: white;
+    font-size: 25px;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    top: 20px;
+    right: 0;
+}
+
+/* The slider */
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: #5FB9A5;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #4975B9;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #4975B9;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+
+@media screen and (max-width: 679px) {
+    form {
+        grid-template-columns: repeat(1, 100%);
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .main_box {
+        display: block;
+    }
+
+    ul {
+        display: flex;
+        border-radius: 0 0 10px 10px;
+        margin: 0;
+        justify-content: space-between;
+    }
+} 

@@ -1,0 +1,41 @@
+html {
+    font-family: Arial;
+}
+
+#text_post {
+    padding: 15px 10px;
+    font-size: 18px;
+}
+
+.post {
+    width: 925px;
+    background-color: gray;
+    height: 200px;
+}
+
+.form {
+    font-size: 18px;
+    width: 900px;
+    padding: 25px;
+}
+
+.about {
+    font-size: 18px;
+    margin: 25px 0px;
+}
+#text {
+    font-family: Arial;
+    letter-spacing: 1px;
+}
+
+button {
+    width: 10;
+    height: 20;
+    padding: 10px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+
+}
+

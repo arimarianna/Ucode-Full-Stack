@@ -1,0 +1,13 @@
+form {
+    border: 2px solid gray;
+    padding: 20px;
+}
+
+.block {
+    margin: 20px 10px;
+}
+
+#buttons {
+margin-top: 10px;
+margin-bottom: 10px;
+}

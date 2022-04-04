@@ -1,0 +1,76 @@
+html {
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+body {
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container>.buttons,
+.container>.form,
+.container>.archive {
+    margin: 5px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+}
+
+button {
+    border: 0;
+    padding: 20px 35px;
+}
+
+.add {
+    background: #133dc7;
+    color: white;
+    border-radius: 7px;
+    font-size: 14px;
+}
+
+.clear {
+    border-radius: 7px;
+    font-size: 14px;
+}
+
+.form,
+.archive {
+    background: #f0f0f0;
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 15px;
+}
+
+.form>p,
+.archive>p {
+    color: #112f94;
+}
+
+.form>textarea {
+    border: 3px solid #364b8d77;
+    padding: 5px;
+}
+
+#cookiesList>p {
+    background: white;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 0;
+}
+
+button:hover {
+    box-shadow: 0 0 7px 0 rgba(8, 8, 8, 0.247)
+}

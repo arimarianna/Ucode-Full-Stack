@@ -1,0 +1,50 @@
+img {
+    border-radius: 22px;
+}
+
+td {
+    border: 1px solid #dddddd;
+    padding: 15px;
+    text-align: center;
+}
+
+table {
+    border-spacing: 0;
+}
+
+h1 {
+    text-align: left;
+}
+
+#header {
+    background-color: black;
+    color: white;
+}
+
+#soul {
+    background-color: #cc954d;
+}
+
+#time {
+    background-color: #377e22;
+}
+
+#space {
+    background-color: #22568d;
+}
+
+#mind {
+    background-color: #ffff55;
+}
+
+#reality {
+    background-color: #b23835;
+}
+
+#power {
+    background-color: #7f75b2;
+}
+
+#footer {
+    text-align: center;
+}

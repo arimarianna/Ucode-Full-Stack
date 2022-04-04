@@ -1,0 +1,53 @@
+body {
+    position: relative;
+}
+
+.el {
+    position: absolute;
+
+    width: 150px;
+    height: 150px;
+    display: block;
+
+    cursor: pointer;
+}
+
+.el1 {
+    left: 450px;
+    top: 150px;
+    background: #D63A54;
+}
+
+.el2 {
+    left: 450px;
+    top: 500px;
+    background: #45D765;
+}
+
+.el3 {
+    left: 450px;
+    top: 330px;
+    background: #0685D7;
+}
+
+.el4 {
+    left: 630px;
+    top: 150px;
+    background: #A64DD7;
+}
+
+.el5 {
+    left: 630px;
+    top: 500px;
+    background: #D7577C;
+}
+
+.el6 {
+    left: 630px;
+    top: 330px;
+    background: #D7C451;
+}
+
+.active {
+    border: 5px dashed rgba(14, 13, 13, 0.829);
+}
